@@ -19,10 +19,5 @@ class CustomException(Exception):
         return self.error_message
     
 
-    if __name__ =="__main__":
-        try:
-            a=1/0
-        except:
-            logging.info("Divided by zero")
-            raise CustomException
+   
 
